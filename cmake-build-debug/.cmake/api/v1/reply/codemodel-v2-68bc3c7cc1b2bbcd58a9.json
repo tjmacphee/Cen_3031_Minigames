@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Cen_3031_Minigames::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cen_3031_Minigames-Debug-7b48ba3847157cd8bc6b.json",
+					"jsonFile" : "target-Cen_3031_Minigames-Debug-bbf8e5013e9e64018f05.json",
 					"name" : "Cen_3031_Minigames",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/tylermacphee/CLionProjects/Cen-3031 Minigames/cmake-build-debug",
-		"source" : "/Users/tylermacphee/CLionProjects/Cen-3031 Minigames"
+		"build" : "C:/Users/julia/CLionProjects/Cen_3031_Minigames/cmake-build-debug",
+		"source" : "C:/Users/julia/CLionProjects/Cen_3031_Minigames"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }

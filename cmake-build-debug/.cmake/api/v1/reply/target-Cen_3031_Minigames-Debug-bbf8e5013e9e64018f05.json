@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Cen_3031_Minigames"
+			"path" : "Cen_3031_Minigames.exe"
+		},
+		{
+			"path" : "Cen_3031_Minigames.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+					"fragment" : "-g"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -68,12 +71,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Cen_3031_Minigames",
-	"nameOnDisk" : "Cen_3031_Minigames",
+	"nameOnDisk" : "Cen_3031_Minigames.exe",
 	"paths" : 
 	{
 		"build" : ".",
