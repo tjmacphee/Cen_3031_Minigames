@@ -1,3 +1,0 @@
-C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Cen_3031_Minigames.dir/objects.a
-C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\ar.exe qc CMakeFiles\Cen_3031_Minigames.dir/objects.a @CMakeFiles\Cen_3031_Minigames.dir\objects1.rsp
-C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Cen_3031_Minigames.dir/objects.a -Wl,--no-whole-archive -o Cen_3031_Minigames.exe -Wl,--out-implib,libCen_3031_Minigames.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Cen_3031_Minigames.dir\linklibs.rsp
