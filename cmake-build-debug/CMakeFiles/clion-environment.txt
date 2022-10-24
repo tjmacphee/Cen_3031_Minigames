@@ -1,4 +1,0 @@
-ToolSet: w64 9.0 (local)@C:\Users\julia\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw
-Options: 
-
-Options:

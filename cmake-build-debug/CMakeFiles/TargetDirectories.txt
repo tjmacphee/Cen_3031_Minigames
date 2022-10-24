@@ -1,3 +1,0 @@
-C:/Users/julia/CLionProjects/Cen_3031_Minigames/cmake-build-debug/CMakeFiles/Cen_3031_Minigames.dir
-C:/Users/julia/CLionProjects/Cen_3031_Minigames/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/julia/CLionProjects/Cen_3031_Minigames/cmake-build-debug/CMakeFiles/rebuild_cache.dir
