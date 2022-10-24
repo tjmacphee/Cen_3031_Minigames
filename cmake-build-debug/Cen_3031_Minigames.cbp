@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/julia/CLionProjects/Cen_3031_Minigames/Hangman.cpp">
+			<Option target="Cen_3031_Minigames"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/CLionProjects/Cen_3031_Minigames/Hangman.h">
+			<Option target="Cen_3031_Minigames"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/CLionProjects/Cen_3031_Minigames/Menu.cpp">
+			<Option target="Cen_3031_Minigames"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/CLionProjects/Cen_3031_Minigames/Menu.h">
+			<Option target="Cen_3031_Minigames"/>
+		</Unit>
 		<Unit filename="C:/Users/julia/CLionProjects/Cen_3031_Minigames/main.cpp">
 			<Option target="Cen_3031_Minigames"/>
 		</Unit>
