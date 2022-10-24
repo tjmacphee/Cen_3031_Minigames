@@ -2,7 +2,6 @@
 // Created by julia on 10/23/2022.
 //
 #include "Hangman.h"
-
 #include <cmath>
 #include <cstdlib>
 #include <cstring>
@@ -105,8 +104,6 @@ string hard() {
     return word[0];
 }
 
-char wordArray() {}
-
 void game(string word) {
     int len = word.length();
     char wordArray[len];
@@ -120,11 +117,13 @@ void game(string word) {
     int userLife = 9; // user life count before stick figure
     char userChoice;
     for (int i = 0; i < len; i++) {
-        cout << " _" << userArray[i] << "_ ";
+        cout << " ___ ";
     }
-
+    int wordCounter = 0;
+    int livesCounter = 0;
+    int lastCount = 0;
+    cout << "number of lives: " << userLife << endl;
     while (userLife > 0) {
-        cout << "number of lives: " << userLife << endl;
         cout << "letter choice: ";
         cin >> userChoice;
         cout << endl;
@@ -132,10 +131,29 @@ void game(string word) {
             if (userChoice == wordArray[i]) {
                 userArray[i] = userChoice;
                 cout << " _" << userArray[i] << "_ ";
-
+                livesCounter++;
+                wordCounter++;
             } else {
-                cout << " _"<<userArray[i]<<"_ ";
+                cout << " _" << userArray[i] << "_ ";
             }
+        }
+        for (int i = 0; i < word.length(); i++) {
+            if (userArray[i] == wordArray[i]) {
+                int num;
+            }
+        }
+        if (wordCounter == len) {
+            cout << "Congrats! You win";
+            break;
+        }
+        if (livesCounter == lastCount) {
+            userLife--;
+        }
+        lastCount = livesCounter;
+        cout << "number of lives: " << userLife << endl;
+        if (userLife == 0) {
+            cout << "You Loose :(";
+            return;
         }
     }
 }
@@ -150,7 +168,8 @@ void hangman() {
     switch (choice) {
         case 1: // easy
             word = easy();
-            cout << "Hint: Animals\n" << word << "\n\n";
+            cout << "Hint: Animals\n"
+                 << word << "\n\n"; // the word is only shown for testing purposes
 
             game(word);
             break;
