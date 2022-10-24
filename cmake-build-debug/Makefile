@@ -128,6 +128,54 @@ Cen_3031_Minigames/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/build
 .PHONY : Cen_3031_Minigames/fast
 
+Hangman.obj: Hangman.cpp.obj
+.PHONY : Hangman.obj
+
+# target to build an object file
+Hangman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/Hangman.cpp.obj
+.PHONY : Hangman.cpp.obj
+
+Hangman.i: Hangman.cpp.i
+.PHONY : Hangman.i
+
+# target to preprocess a source file
+Hangman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/Hangman.cpp.i
+.PHONY : Hangman.cpp.i
+
+Hangman.s: Hangman.cpp.s
+.PHONY : Hangman.s
+
+# target to generate assembly for a file
+Hangman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/Hangman.cpp.s
+.PHONY : Hangman.cpp.s
+
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cen_3031_Minigames.dir\build.make CMakeFiles/Cen_3031_Minigames.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Cen_3031_Minigames
+	@echo ... Hangman.obj
+	@echo ... Hangman.i
+	@echo ... Hangman.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
