@@ -4,7 +4,7 @@
 #include "Hangman.h"
 #include <cmath>
 #include <cstdlib>
-#include <cstring>
+#include <cstring>2
 #include <ctime>
 #include <iostream>
 using std::cin;
