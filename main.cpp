@@ -1,6 +1,7 @@
 #include <iostream>
 #include "SFML/include/SFML/Graphics.hpp"
 #include "menu.h"
+#include "Hangman.h"
 
 using namespace std;
 
@@ -31,6 +32,7 @@ int main() {
                         {
                             case 0:
                                 cout << "Play button has been pressed" << endl;
+                                hangman();
                                 break;
                             case 1:
                                 cout << "Options button has been pressed" << endl;
