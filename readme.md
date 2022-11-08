@@ -1,5 +1,5 @@
 Minigamers - CEN 3031 Project  
-_Alpha v.1.0_
+_Alpha v.1.1_
 
 This project compiles three popular minigames: Tic-Tac-Toe, Hangman, and Dodger, into a short series for a quick & fun play session. We've used C++ & the SFML visual library to achieve this. By using the agile development cycle, the team has devised a system to use good programing practices by using comments effectivly and efficiently within the C++ code of this project.
 
@@ -22,16 +22,25 @@ To choose a game, click through the menu to select your desired minigame & play 
 <br/><br/>
 
 <br/><br/>
-**Known Issues:**  
-- Menu system does not display text, font file not rendering proerly
-- Libraries sometimes will not link correctly; try restarting PC & IDE
-
-<br/><br/>
 **Coming Soon:**  
 - TicTacToe minigame
 - Better tracker
 - In-game pause
+- GUI based game interfaces instead of console
 
+<br/><br/>
+**v.1.0 changes:**
+- _Pre-release software, minimal working code_
+- Added basic filestructure
+- Created Menu system class
+- Linked SFML libraries
+- Got github synced across team-members environments
+
+<br/><br/>
+**v.1.1 changes:**
+- Got menu system to be functioning (can use arrow keys to navigate & enter key to select)
+- 'Play' button now links to the hangman game
+- Menu font now works
 
 <br/><br/>
 **Credits:**  
