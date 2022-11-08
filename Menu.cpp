@@ -6,7 +6,7 @@
 using namespace std;
 
 Menu::Menu(float width, float height) {
-    if(!font.loadFromFile("Calibri Regular.ttf"))
+    if(!font.loadFromFile("arial.ttf"))
     {
         //error
     }
@@ -27,6 +27,8 @@ Menu::Menu(float width, float height) {
     menu[2].setColor(sf::Color::White);
     menu[2].setString("Exit");
     menu[2].setPosition(sf::Vector2f(width /2,  height / (MAX_MENU_ITEMS + 1) * 3 ));
+
+    selectedItemIndex = 0;
 }
 
 Menu::~Menu() {
@@ -36,5 +38,23 @@ Menu::~Menu() {
 void Menu::draw(sf::RenderWindow &window) {
     for (int i=0; i<MAX_MENU_ITEMS; i++) {
         window.draw(menu[i]);
+    }
+}
+
+void Menu::moveUp()
+{
+    if (selectedItemIndex - 1 >= 0) {
+        menu[selectedItemIndex].setColor(sf::Color::White);
+        selectedItemIndex--;
+        menu[selectedItemIndex].setColor(sf::Color::Red);
+    }
+}
+
+void Menu::moveDown()
+{
+    if (selectedItemIndex + 1 < MAX_MENU_ITEMS) {
+        menu[selectedItemIndex].setColor(sf::Color::White);
+        selectedItemIndex++;
+        menu[selectedItemIndex].setColor(sf::Color::Red);
     }
 }

@@ -2,6 +2,8 @@
 #include "SFML/include/SFML/Graphics.hpp"
 #include "menu.h"
 
+using namespace std;
+
 int main() {
 
     sf::RenderWindow window(sf::VideoMode(600, 600), "SFML WORKING");
@@ -15,6 +17,32 @@ int main() {
         {
             switch (event.type)
             {
+                case sf::Event::KeyReleased:
+                    switch (event.key.code)
+                    {
+                    case sf::Keyboard::Up:
+                        menu.moveUp();
+                        break;
+                    case sf::Keyboard::Down:
+                        menu.moveDown();
+                        break;
+                    case sf::Keyboard::Return:
+                        switch (menu.getPressedItem())
+                        {
+                            case 0:
+                                cout << "Play button has been pressed" << endl;
+                                break;
+                            case 1:
+                                cout << "Options button has been pressed" << endl;
+                                break;
+                            case 2:
+                                window.close();
+                                break;
+
+                        }
+                        break;
+                    }
+                    break;
                 case sf::Event::Closed:
                     window.close();
                     break;

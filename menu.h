@@ -18,6 +18,7 @@ public:
     void draw(sf::RenderWindow &window);
     void moveUp();
     void moveDown();
+    int getPressedItem() { return selectedItemIndex; }
 
 private:
     int selectedItemIndex;
