@@ -1095,3 +1095,6 @@ cmake-build-debug/Cen_3031_Minigames
 *.log
 *.txt
 *.log
+*.txt
+CMakeLists.txt
+*.txt
