@@ -1098,3 +1098,5 @@ cmake-build-debug/Cen_3031_Minigames
 *.txt
 CMakeLists.txt
 *.txt
+SFML/include/SFML/Graphics.hpp
+*.hpp
