@@ -1,4 +1,4 @@
-Minigamers - CEN 3031 Project  
+#Minigamers - CEN 3031 Project  
 _Alpha v.1.1_
 
 This project compiles three popular minigames: Tic-Tac-Toe, Hangman, and Dodger, into a short series for a quick & fun play session. We've used C++ & the SFML visual library to achieve this. By using the agile development cycle, the team has devised a system to use good programing practices by using comments effectivly and efficiently within the C++ code of this project.
