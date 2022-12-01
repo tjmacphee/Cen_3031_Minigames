@@ -2,12 +2,11 @@
 #include "SFML/include/SFML/Graphics.hpp"
 #include "menu.h"
 #include "Hangman.h"
-
+#include "breakout_defs.h"
 using namespace std;
 
 int main() {
-
-    sf::RenderWindow window(sf::VideoMode(600, 600), "SFML WORKING");
+    sf::RenderWindow window(sf::VideoMode(600, 600), "Minigames");
 
     Menu menu(window.getSize().x, window.getSize().y);
 
@@ -32,7 +31,7 @@ int main() {
                         {
                             case 0:
                                 cout << "Play button has been pressed" << endl;
-                                hangman();
+                                breakout();
                                 break;
                             case 1:
                                 cout << "Options button has been pressed" << endl;
@@ -40,10 +39,10 @@ int main() {
                             case 2:
                                 window.close();
                                 break;
-
                         }
                         break;
                     }
+
                     break;
                 case sf::Event::Closed:
                     window.close();
