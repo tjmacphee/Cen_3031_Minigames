@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(600, 600), "Minigames");
+    sf::RenderWindow window(sf::VideoMode(1920, 1080), "Minigames");
 
     Menu menu(window.getSize().x, window.getSize().y);
 
@@ -31,7 +31,7 @@ int main() {
                         {
                             case 0:
                                 cout << "Play button has been pressed" << endl;
-                                breakout();
+                                breakout(window);
                                 break;
                             case 1:
                                 cout << "Options button has been pressed" << endl;

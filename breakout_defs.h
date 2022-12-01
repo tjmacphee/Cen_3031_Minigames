@@ -8,7 +8,7 @@
  * 5.1.22 - TM updated defs for new bricks structure
  * -------------------------------------------------------- */
 
-#include <SFML/Graphics.hpp>
+#include "SFML/include/SFML/Graphics.hpp"
 
 #ifndef COLLISION_BREAKOUT_DEFS_H
 #define COLLISION_BREAKOUT_DEFS_H
@@ -105,6 +105,6 @@ struct Borders {
     Block bottom_wall;
 };
 
-int breakout();
+void breakout(sf::RenderWindow &window);
 
 #endif //COLLISION_BREAKOUT_DEFS_H

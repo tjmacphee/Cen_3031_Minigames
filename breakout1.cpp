@@ -31,10 +31,8 @@ bool doCollisionChecks(Ball &ball, MovingBlock &paddle, Borders &borders, Brick 
  * The main application
  * @return OS status message (0=Success)
  */
-int breakout() {
+void breakout(sf::RenderWindow &window) {
     // create a 2d graphics window
-    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Breakout");
-    window.clear(WINDOW_COLOR);
 
     // declare a ball variable for setup function
     Ball theBall;
@@ -89,7 +87,6 @@ int breakout() {
     } // end main game loop
     // game ending, close the graphics window
     window.close();
-    return 0;   // return success to the OS
 } // end main
 
 /**
