@@ -6,7 +6,7 @@
 #define CEN_3031_MINIGAMES_MENU_H
 
 #pragma once
-#include "SFML/include/SFML/Graphics.hpp"
+#include "SFML/Graphics.hpp"
 
 #define MAX_MENU_ITEMS 5
 

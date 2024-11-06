@@ -1,5 +1,5 @@
 #include <iostream>
-#include "SFML/include/SFML/Graphics.hpp"
+#include "SFML/Graphics.hpp"
 #include "menu.h"
 #include "Hangman.h"
 #include "breakout_defs.h"
